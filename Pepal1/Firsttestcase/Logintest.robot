@@ -8,6 +8,9 @@ Library    SeleniumLibrary
 MyFirstTestCase
     Log    I am Smrita    
     
+MySecondTestCase
+    Log    My second test case    
+    
 
 LoginToPepal
     Open Browser    ${URL}     firefox
@@ -24,4 +27,5 @@ LoginToPepal
     
 *** Variables ***
 ${URL}    http://172.18.11.127:90/HRISLogin.aspx
+
         
